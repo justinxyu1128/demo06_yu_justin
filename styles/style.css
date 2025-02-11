@@ -1,1 +1,36 @@
+/* New Color Palette:
+* Lightest :                    #E3DCC2      (text, contrast with dark)
+* Dark Yellow :       #51513D      
+* Light Yellow : #A6A867      (canvas background)
+* Yellow :  #E3DC95
+* Black: #1B2021
+*/
 
+
+.btn-info {
+    color: #E3DCC2;
+    background-color: #1B2021;
+}
+
+body {
+    background-color: #A6A867;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #51513D;            /* Dark green for brand name & nav links for visibility */
+    
+}
+
+.bg-info {
+    background-color: #E3DC95!important;
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive; /*change the font name for what you have*/
+    font-size: 2.25rem;
+}
+
+.btn-primary {
+    color: #E3DCC2;
+    background-color: #1B2021;
+}
